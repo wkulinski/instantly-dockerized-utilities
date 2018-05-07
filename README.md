@@ -1,4 +1,4 @@
-# Instantly Dockerized Symfony 4 Project
+# Instantly Dockerized Utilities
 
 ## What's included
 With only few commands you instantly receive utilities helpful in docker development:
