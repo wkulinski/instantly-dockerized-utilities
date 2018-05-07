@@ -1,0 +1,9 @@
+/.env
+/data/
+!data/cert/.gitkeep
+!data/auth/.gitkeep
+/.idea
+!/data/pgadmin4/.gitkeep
+!/data/registry/.gitkeep
+!/data/registry-ui/.gitkeep
+!/data/portainer/.gitkeep
