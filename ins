@@ -7,6 +7,11 @@ elementIn () {
     return 1
 }
 
+if [ -z "$1" ] ; then
+    echo "No argument supplied"
+    exit
+fi
+
 echo "Executing command..."
 scripts=(export manage install)
 if elementIn "$1" "${scripts[@]}"; then
